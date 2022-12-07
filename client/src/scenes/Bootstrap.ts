@@ -15,10 +15,10 @@ export default class Bootstrap extends Phaser.Scene {
   preload() {
     this.load.atlas(
       'cloud_day',
-      'assets/background/cloud_day.png',
+      'assets/background/faces.png',
       'assets/background/cloud_day.json'
     )
-    this.load.image('backdrop_day', 'assets/background/backdrop_day.png')
+    this.load.image('backdrop_day', 'assets/background/cool_background.png')
     this.load.atlas(
       'cloud_night',
       'assets/background/cloud_night.png',
