@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1668">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1691">
  <editorsettings>
   <export target="map2.json" format="json"/>
  </editorsettings>
@@ -12831,8 +12831,9 @@
   <image source="../items/chair2.png" trans="e6e6e6" width="64" height="56"/>
  </tileset>
  <tileset firstgid="5491" source="../../../../../../../K20/Prototype/TILED Tilesets/Floors.tsx"/>
- <tileset firstgid="23347" source="../../../../../../../K20/Prototype/Gather Assets/mapmaking-master/tilesets/Walls/allwall.tsx"/>
- <tileset firstgid="25171" source="../../../../../../../K20/Prototype/Gather Assets/mapmaking-master/tilesets/Walls/toppers.tsx"/>
+ <tileset firstgid="23347" name="gather_Walls" tilewidth="32" tileheight="32" tilecount="1230" columns="41">
+  <image source="gather_Walls.png" trans="000000" width="1312" height="960"/>
+ </tileset>
  <layer id="2" name="Ground" width="40" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -12868,1052 +12869,117 @@
 </data>
  </layer>
  <objectgroup id="3" name="Wall">
-  <object id="1279" gid="23395" x="160" y="96" width="32" height="32">
+  <object id="1668" gid="23389" x="160" y="64" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1280" gid="23395" x="160" y="256" width="32" height="32">
+  <object id="1669" gid="23389" x="160" y="192" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1281" gid="23395" x="160" y="128" width="32" height="32">
+  <object id="1670" gid="23389" x="160" y="96" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1282" gid="23395" x="160" y="160" width="32" height="32">
+  <object id="1671" gid="23389" x="160" y="128" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1283" gid="23395" x="160" y="192" width="32" height="32">
+  <object id="1672" gid="23389" x="160" y="160" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1284" gid="23395" x="160" y="224" width="32" height="32">
+  <object id="1673" gid="23389" x="160" y="224" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1285" gid="23395" x="160" y="288" width="32" height="32">
+  <object id="1674" gid="23389" x="160" y="256" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1286" gid="23395" x="160" y="320" width="32" height="32">
+  <object id="1675" gid="23389" x="160" y="288" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1287" gid="23395" x="160" y="416" width="32" height="32">
+  <object id="1676" gid="23389" x="160" y="320" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1288" gid="23395" x="160" y="352" width="32" height="32">
+  <object id="1677" gid="23389" x="160" y="352" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1289" gid="23395" x="160" y="384" width="32" height="32">
+  <object id="1678" gid="23389" x="160" y="384" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1290" gid="23395" x="160" y="448" width="32" height="32">
+  <object id="1679" gid="23389" x="160" y="416" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1291" gid="23395" x="160" y="480" width="32" height="32">
+  <object id="1680" gid="23389" x="160" y="448" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1292" gid="23395" x="160" y="512" width="32" height="32">
+  <object id="1681" gid="23389" x="160" y="480" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1293" gid="23395" x="160" y="544" width="32" height="32">
+  <object id="1682" gid="23389" x="160" y="512" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1294" gid="23395" x="160" y="576" width="32" height="32">
+  <object id="1683" gid="23389" x="160" y="544" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1295" gid="23395" x="160" y="608" width="32" height="32">
+  <object id="1684" gid="23389" x="160" y="576" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1296" gid="23395" x="160" y="640" width="32" height="32">
+  <object id="1685" gid="23389" x="160" y="608" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1297" gid="23395" x="160" y="672" width="32" height="32">
+  <object id="1686" gid="23389" x="160" y="640" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1298" gid="23395" x="160" y="704" width="32" height="32">
+  <object id="1687" gid="23389" x="160" y="672" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1299" gid="23371" x="256" y="768" width="32" height="32">
+  <object id="1688" gid="23389" x="160" y="704" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1300" gid="23371" x="192" y="768" width="32" height="32">
+  <object id="1689" gid="23389" x="160" y="736" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="1301" gid="23371" x="224" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1302" gid="23371" x="160" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1303" gid="23371" x="288" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1304" gid="23371" x="320" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1305" gid="23371" x="352" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1306" gid="23371" x="416" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1307" gid="23371" x="384" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1308" gid="23371" x="448" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1309" gid="23371" x="480" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1310" gid="23371" x="512" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1311" gid="23371" x="544" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1312" gid="23371" x="576" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1313" gid="23371" x="608" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1314" gid="23371" x="640" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1315" gid="23371" x="672" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1316" gid="23371" x="704" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1317" gid="23371" x="736" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1318" gid="23371" x="768" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1319" gid="23371" x="800" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1320" gid="23371" x="832" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1321" gid="23371" x="864" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1322" gid="23371" x="896" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1323" gid="23371" x="928" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1324" gid="23371" x="960" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1325" gid="23371" x="992" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1326" gid="23371" x="1024" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1327" gid="23371" x="1056" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1328" gid="23371" x="1088" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1329" gid="23371" x="1120" y="768" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1330" gid="23347" x="192" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1331" gid="23347" x="224" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1332" gid="23347" x="256" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1333" gid="23347" x="288" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1334" gid="23347" x="320" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1335" gid="23347" x="352" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1336" gid="23347" x="384" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1337" gid="23347" x="416" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1338" gid="23347" x="448" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1339" gid="23347" x="480" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1340" gid="23347" x="512" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1341" gid="23347" x="544" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1342" gid="23347" x="576" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1343" gid="23347" x="608" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1344" gid="23347" x="640" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1345" gid="23347" x="672" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1346" gid="23347" x="704" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1347" gid="23347" x="736" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1348" gid="23347" x="768" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1349" gid="23347" x="800" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1350" gid="23347" x="832" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1351" gid="23347" x="864" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1352" gid="23347" x="896" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1353" gid="23347" x="928" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1354" gid="23347" x="960" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1355" gid="23347" x="992" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1356" gid="23347" x="992" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1357" gid="23347" x="1024" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1358" gid="23347" x="1088" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1359" gid="23347" x="1088" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1360" gid="23347" x="1088" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1361" gid="23347" x="1056" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1362" gid="23395" x="1120" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1363" gid="23395" x="1120" y="704" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1364" gid="23395" x="1120" y="672" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1365" gid="23395" x="160" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1366" gid="23395" x="160" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1367" gid="23371" x="224" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1368" gid="23371" x="192" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1369" gid="23371" x="256" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1370" gid="23371" x="288" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1371" gid="23371" x="352" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1372" gid="23371" x="320" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1373" gid="23371" x="384" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1374" gid="23371" x="416" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1375" gid="23371" x="480" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1376" gid="23371" x="448" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1377" gid="23371" x="512" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1378" gid="23371" x="544" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1379" gid="23371" x="576" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1380" gid="23371" x="608" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1381" gid="23371" x="640" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1382" gid="23371" x="672" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1383" gid="23371" x="704" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1384" gid="23371" x="736" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1385" gid="23371" x="736" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1386" gid="23371" x="768" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1387" gid="23371" x="800" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1388" gid="23371" x="832" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1389" gid="23371" x="864" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1390" gid="23371" x="896" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1391" gid="23371" x="928" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1392" gid="23371" x="960" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1393" gid="23371" x="992" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1394" gid="23371" x="1024" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1395" gid="23371" x="1056" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1396" gid="23371" x="1088" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1397" gid="23347" x="192" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1398" gid="23347" x="224" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1399" gid="23347" x="256" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1400" gid="23347" x="288" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1401" gid="23347" x="320" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1402" gid="23347" x="352" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1403" gid="23347" x="384" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1404" gid="23347" x="416" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1405" gid="23347" x="448" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1406" gid="23347" x="480" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1407" gid="23347" x="512" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1408" gid="23347" x="544" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1409" gid="23347" x="576" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1410" gid="23347" x="608" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1411" gid="23347" x="640" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1412" gid="23347" x="672" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1413" gid="23347" x="704" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1414" gid="23347" x="768" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1415" gid="23347" x="736" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1416" gid="23347" x="800" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1417" gid="23347" x="832" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1418" gid="23347" x="864" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1419" gid="23347" x="896" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1420" gid="23347" x="928" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1421" gid="23347" x="960" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1422" gid="23347" x="992" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1423" gid="23347" x="1024" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1424" gid="23347" x="1056" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1425" gid="23347" x="1088" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1599" gid="23395" x="1120" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1600" gid="23395" x="1120" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1601" gid="23395" x="1120" y="128" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1602" gid="23395" x="1120" y="608" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1603" gid="23395" x="1120" y="640" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1604" gid="23395" x="1120" y="160" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1605" gid="23395" x="1120" y="576" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1606" gid="23395" x="1120" y="192" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1608" gid="23395" x="1120" y="544" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1609" gid="23395" x="1120" y="512" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1610" gid="23395" x="1120" y="480" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1611" gid="23395" x="1120" y="448" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1612" gid="23395" x="1120" y="416" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1613" gid="23395" x="1120" y="384" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1614" gid="23395" x="1120" y="352" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1615" gid="23395" x="1120" y="320" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1616" gid="23395" x="1120" y="288" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1617" gid="23395" x="1120" y="256" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1618" gid="23395" x="1120" y="224" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1620" gid="25783" x="160" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1621" gid="25800" x="160" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1622" gid="25800" x="160" y="160" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1623" gid="25800" x="160" y="128" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1624" gid="25800" x="160" y="192" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1625" gid="25800" x="160" y="224" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1626" gid="25800" x="160" y="256" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1627" gid="25800" x="160" y="288" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1628" gid="25800" x="160" y="320" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1629" gid="25800" x="160" y="352" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1630" gid="25800" x="160" y="384" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1631" gid="25800" x="160" y="448" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1632" gid="25800" x="160" y="416" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1633" gid="25800" x="160" y="480" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1634" gid="25800" x="160" y="512" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1635" gid="25800" x="160" y="544" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1636" gid="25800" x="160" y="576" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1637" gid="25800" x="160" y="608" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1638" gid="25800" x="160" y="640" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1639" gid="25800" x="160" y="672" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1640" gid="25800" x="160" y="704" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1641" gid="25785" x="1120" y="64" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1642" gid="25802" x="1120" y="96" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1643" gid="25802" x="1120" y="128" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1644" gid="25802" x="1120" y="160" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1645" gid="25802" x="1120" y="192" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1646" gid="25802" x="1120" y="224" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1647" gid="25802" x="1120" y="256" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1648" gid="25802" x="1120" y="288" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1649" gid="25802" x="1120" y="320" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1650" gid="25802" x="1120" y="352" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1651" gid="25802" x="1120" y="384" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1652" gid="25802" x="1120" y="416" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1653" gid="25802" x="1120" y="448" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1654" gid="25802" x="1120" y="480" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1655" gid="25802" x="1120" y="512" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1656" gid="25802" x="1120" y="544" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1657" gid="25802" x="1120" y="576" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1658" gid="25802" x="1120" y="640" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1659" gid="25802" x="1120" y="608" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1660" gid="25802" x="1120" y="672" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1661" gid="25802" x="1120" y="704" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1665" gid="25834" x="160" y="736" width="32" height="32">
-   <properties>
-    <property name="collides" type="bool" value="true"/>
-   </properties>
-  </object>
-  <object id="1667" gid="25836" x="1120" y="736" width="32" height="32">
+  <object id="1690" gid="23389" x="160" y="768" width="32" height="32">
    <properties>
     <property name="collides" type="bool" value="true"/>
    </properties>

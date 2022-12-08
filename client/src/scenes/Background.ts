@@ -26,7 +26,7 @@ export default class Background extends Phaser.Scene {
     }
 
     // Add backdrop image
-    const backdropImage = this.add.image(sceneWidth / 2, sceneHeight / 2, this.backdropKey)
+    const backdropImage = this.add.image(sceneWidth, sceneHeight / 2, this.backdropKey)
     const scale = Math.max(sceneWidth / backdropImage.width, sceneHeight / backdropImage.height)
     backdropImage.setScale(scale).setScrollFactor(0)
 
@@ -37,6 +37,7 @@ export default class Background extends Phaser.Scene {
     */
 
     // Add 24 clouds at random positions and with random speeds
+    //Changed to 2 faces instead of clouds.
     const frames = this.textures.get(this.cloudKey).getFrameNames()
     this.cloud = this.physics.add.group()
     for (let i = 0; i < 2; i++) {

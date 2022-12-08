@@ -12,10 +12,10 @@ import { Navigation } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import Adam from '../images/login/Adam_login.png'
-import Ash from '../images/login/Ash_login.png'
-import Lucy from '../images/login/Lucy_login.png'
-import Nancy from '../images/login/Nancy_login.png'
+import Adam from '../images/login/green_login.png'
+import Ash from '../images/login/red_login.png'
+import Lucy from '../images/login/purple_login.png'
+import Nancy from '../images/login/blue_login.png'
 import { useAppSelector, useAppDispatch } from '../hooks'
 import { setLoggedIn } from '../stores/UserStore'
 import { getAvatarString, getColorByString } from '../util'
@@ -28,7 +28,7 @@ const Wrapper = styled.form`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #222639;
+  background: #2A1FC3;
   border-radius: 16px;
   padding: 36px 60px;
   box-shadow: 0px 0px 5px #0000006f;
@@ -37,7 +37,7 @@ const Wrapper = styled.form`
 const Title = styled.p`
   margin: 5px;
   font-size: 20px;
-  color: #c2c2c2;
+  color: #FFE991;
   text-align: center;
 `
 
@@ -53,7 +53,7 @@ const RoomName = styled.div`
 
   h3 {
     font-size: 24px;
-    color: #eee;
+    color: #FFE991;
   }
 `
 
@@ -71,7 +71,7 @@ const RoomDescription = styled.div`
 const SubTitle = styled.h3`
   width: 160px;
   font-size: 16px;
-  color: #eee;
+  color: #FFE991;
   text-align: center;
 `
 
@@ -95,7 +95,7 @@ const Left = styled.div`
   .swiper-slide {
     width: 160px;
     height: 220px;
-    background: #dbdbe0;
+    background: #C7C7C7;
     display: flex;
     justify-content: center;
     align-items: center;

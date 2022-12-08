@@ -503,6 +503,36 @@
                  "width":32,
                  "x":768,
                  "y":480
+                }, 
+                {
+                 "class":"",
+                 "gid":5533,
+                 "height":32,
+                 "id":1275,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":32,
+                 "x":672,
+                 "y":544
+                }, 
+                {
+                 "class":"",
+                 "gid":5533,
+                 "height":32,
+                 "id":1276,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":32,
+                 "x":704,
+                 "y":544
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1108,42 +1138,6 @@
                  "width":32,
                  "x":544,
                  "y":328
-                }, 
-                {
-                 "class":"",
-                 "gid":5489,
-                 "height":32,
-                 "id":1273,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"direction",
-                         "type":"string",
-                         "value":"down"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":32,
-                 "x":662.666666666667,
-                 "y":464
-                }, 
-                {
-                 "class":"",
-                 "gid":5490,
-                 "height":32,
-                 "id":1274,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"direction",
-                         "type":"string",
-                         "value":"up"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":32,
-                 "x":694.666666666667,
-                 "y":463.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -4293,7 +4287,7 @@
          "y":0
         }],
  "nextlayerid":16,
- "nextobjectid":1275,
+ "nextobjectid":1277,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.9.2",
@@ -27520,6 +27514,20 @@
          "tileheight":32,
          "tilewidth":32,
          "transparentcolor":"#e6e6e6"
+        }, 
+        {
+         "columns":41,
+         "firstgid":5491,
+         "image":"gather_Walls.png",
+         "imageheight":960,
+         "imagewidth":1312,
+         "margin":0,
+         "name":"gather_Walls",
+         "spacing":0,
+         "tilecount":1230,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#000000"
         }],
  "tilewidth":32,
  "type":"map",

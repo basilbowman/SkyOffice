@@ -32,6 +32,10 @@ export default class Bootstrap extends Phaser.Scene {
       frameWidth: 32,
       frameHeight: 32,
     })
+    this.load.spritesheet('gather_Walls', 'assets/map/gather_Walls.png', {
+      frameWidth: 32,
+      frameHeight: 64,
+    }) 
     this.load.spritesheet('chairs', 'assets/items/chair.png', {
       frameWidth: 32,
       frameHeight: 64,

@@ -24,8 +24,8 @@ const gameServer = new Server({
 // register room handlers
 gameServer.define(RoomType.LOBBY, LobbyRoom)
 gameServer.define(RoomType.PUBLIC, SkyOffice, {
-  name: 'Public Lobby',
-  description: 'For making friends and familiarizing yourself with the controls',
+  name: 'Testing Classroom',
+  description: 'This is where Nathan breaks all the things',
   password: null,
   autoDispose: false,
 })
