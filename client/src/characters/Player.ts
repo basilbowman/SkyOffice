@@ -71,7 +71,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
       .text(0, 0, dialogBubbleText, { wordWrap: { width: 165, useAdvancedWrap: true } })
       .setFontFamily('Arial')
       .setFontSize(12)
-      .setColor('#000000')
+      .setColor('#2a1fc3')
       .setOrigin(0.5)
 
     // set dialogBox slightly larger than the text in it
@@ -89,7 +89,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
         .graphics()
         .fillStyle(0xffffff, 1)
         .fillRoundedRect(dialogBoxX, dialogBoxY, dialogBoxWidth, dialogBoxHeight, 3)
-        .lineStyle(1, 0x000000, 1)
+        .lineStyle(1.5, 0x2a1fc3, 1)
         .strokeRoundedRect(dialogBoxX, dialogBoxY, dialogBoxWidth, dialogBoxHeight, 3)
     )
     this.playerDialogBubble.add(innerText)
